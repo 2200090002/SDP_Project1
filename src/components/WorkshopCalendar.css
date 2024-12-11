@@ -1,0 +1,84 @@
+/* WorkshopCalendar.css */
+
+.calendar-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rbc-calendar {
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rbc-toolbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .rbc-toolbar button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .rbc-toolbar button:hover {
+    text-decoration: underline;
+  }
+  
+  .rbc-month-view, .rbc-time-view {
+    background-color: #fff;
+  }
+  
+  .rbc-day-bg, .rbc-time-slot {
+    border-color: #ddd;
+  }
+  
+  .rbc-event {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .rbc-event:hover {
+    background-color: #0056b3;
+  }
+  
+  .rbc-selected-cell {
+    background-color: #e6f2ff !important;
+  }
+  
+  .rbc-today {
+    background-color: #f0f8ff;
+  }
+  
+  .rbc-header {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .rbc-off-range-bg {
+    background-color: #f8f8f8;
+  }
+  

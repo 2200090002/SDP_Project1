@@ -1,0 +1,50 @@
+/* VideoPage.css */
+.video-page-container {
+  max-width: 1200px;
+  margin: 10 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #8b6f52, #f6f3f2);
+  border-radius: 12px;
+  color: #241f1f;
+  margin-bottom: 10px;
+}
+
+.video-description {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #0e0404;
+}
+
+.video-container {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height:10;
+  overflow: hidden;
+}
+
+.workshop-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 65%;
+  border-radius: 1px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #080501;
+  color: rgb(81, 244, 132);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #645929;
+}

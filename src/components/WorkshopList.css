@@ -1,0 +1,151 @@
+/* Workshop List Container */
+.workshop-list-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  background: linear-gradient(135deg, #ff8c00, #ff6f61);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px;
+  margin-bottom: 40px;
+  border: 2px solid #007BFF;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: #9ac7ef;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.search-bar:focus {
+  border-color: #0056b3;
+  background-color: #dde3e5;
+  outline: none;
+}
+
+/* Workshop List Styling */
+.workshop-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Workshop Card Styling */
+.workshop-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  background-color: #ee8686;
+  border: 2px solid #ff6347;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(145deg, #f8bdae, #ececc4);
+}
+
+.workshop-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Workshop Card Title */
+.workshop-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Workshop Card Description */
+.workshop-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Workshop Date and Location */
+.workshop-date-location {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+/* View Details Button */
+.view-details-button {
+  padding: 8px 16px;
+  background-color: #9df6b4;
+  color: rgb(228, 41, 41);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.view-details-button:hover {
+  background-color: #042141;
+  color: #151313;
+  transform: scale(1.1);
+}
+
+/* Favorite Button */
+.favorite-button {
+  padding: 8px 16px;
+  background-color: #f39c12; /* Orange color for favorites */
+  color: rgb(243, 194, 194);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.favorite-button.favorited {
+  background-color: #2ecc71; /* Green when favorited */
+}
+
+.favorite-button:hover {
+  background-color: #e67e22; /* Slightly darker on hover */
+  transform: scale(1.05);
+}
+
+/* Workshop Video Section */
+.workshop-video {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #fb3d2f, #d8933e);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.workshop-video video {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Hover Effects for Cards */
+.workshop-card:hover {
+  background: linear-gradient(145deg, #e5ad21, #bed9f0);
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.2);
+}
+
+.view-details-button:focus,
+.favorite-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(181, 205, 230, 0.7);
+}

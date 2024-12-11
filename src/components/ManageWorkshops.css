@@ -1,0 +1,124 @@
+.manage-workshops-container {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #9dd4ed;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 70px;
+  color: #0d0101;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #0e0101;
+}
+
+.add-workshop-form, .search-sort-container {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #140101;
+  border-radius: 8px;
+  background-color: #eee9e9;
+}
+
+.add-workshop-form input,
+.add-workshop-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #4e4848;
+  border-radius: 4px;
+}
+
+.add-workshop-form button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #51a0f4;
+  color: rgb(10, 9, 9);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-workshop-form button:hover {
+  background-color: #0056b3;
+}
+
+.search-sort-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #edc1c1;
+  border-radius: 4px;
+}
+
+.workshop-list {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #83c0cb;
+  border-radius: 8px;
+  background-color: #f4c5c5;
+}
+
+.workshop-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-item h4 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+.workshop-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.workshop-item button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.workshop-item button:hover {
+  background-color: #218838;
+}
+
+.workshop-item button:last-child {
+  background-color: #dc3545;
+}
+
+.workshop-item button:last-child:hover {
+  background-color: #c82333;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #138496;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}

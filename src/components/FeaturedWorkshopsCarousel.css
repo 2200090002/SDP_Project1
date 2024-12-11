@@ -1,0 +1,22 @@
+/* src/components/FeaturedWorkshopsCarousel.css */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .carousel-item {
+    min-width: 250px;
+    margin-right: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item h3 {
+    margin: 0 0 10px;
+  }
+  

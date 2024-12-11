@@ -1,0 +1,93 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #282c34;
+  padding: 100px;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+button {
+  padding: 5px 2px;
+  margin: 1px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button.primary {
+  background-color: #f1a9dc;
+  color: white;
+}
+
+button.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+footer {
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+/* Light Mode Styles (default) */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}

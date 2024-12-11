@@ -1,0 +1,32 @@
+.workshop-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease-in;
+  }
+  
+  .workshop-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #df5858;
+    width: 100%;
+    padding: 10px;
+    transition: bottom 0.3s ease-in;
+  }
+  
+  .workshop-card:hover .card-content {
+    bottom: 0;
+  }
+
+  /* src/components/WorkshopCard.css */
+.workshop-card {
+    /* Add your styles here */
+    border: 1px solid #e16b6b;
+    padding: 16px;
+    margin: 10px;
+  }
+  

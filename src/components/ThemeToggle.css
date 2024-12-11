@@ -1,0 +1,10 @@
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode button {
+    background-color: #555;
+    color: #fff;
+  }
+  

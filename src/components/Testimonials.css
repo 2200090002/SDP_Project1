@@ -1,0 +1,33 @@
+.testimonials {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-card {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .testimonial-card p:last-child {
+    font-size: 14px;
+    color: #555;
+    text-align: right;
+  }
+  

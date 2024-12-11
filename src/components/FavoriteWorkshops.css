@@ -1,0 +1,163 @@
+/* FavoriteWorkshops.css */
+.favorite-workshops .workshop-card {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  .favorite-workshops .workshop-card h3 {
+    color: #333;
+  }
+  
+  .favorite-workshops .workshop-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .workshop-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-workshops .workshop-card.animate__animated {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .favorite-workshops .favorite-button {
+    background-color: #f39c12;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .favorite-button.favorited {
+    background-color: #2ecc71; /* Green when it's favorited */
+  }
+  
+  .favorite-workshops .remove-favorite-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .remove-favorite-button:hover {
+    background-color: #c0392b;
+  }
+/* FavoriteWorkshops.css */
+.favorite-workshops .workshop-card {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  .favorite-workshops .workshop-card h3 {
+    color: #333;
+  }
+  
+  .favorite-workshops .workshop-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .workshop-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-workshops .workshop-card.animate__animated {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .favorite-workshops .favorite-button {
+    background-color: #f39c12;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .favorite-button.favorited {
+    background-color: #2ecc71; /* Green when it's favorited */
+  }
+  
+  .favorite-workshops .remove-favorite-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-workshops .remove-favorite-button:hover {
+    background-color: #c0392b;
+  }
+/* FavoriteWorkshops.css */
+.favorite-workshops .workshop-card {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.favorite-workshops .workshop-card h3 {
+  color: #333;
+}
+
+.favorite-workshops .workshop-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.favorite-workshops .workshop-card button:hover {
+  background-color: #0056b3;
+}
+
+.favorite-workshops .workshop-card.animate__animated {
+  transition: all 0.5s ease-in-out;
+}
+
+.favorite-workshops .favorite-button {
+  background-color: #f39c12;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-workshops .favorite-button.favorited {
+  background-color: #2ecc71; /* Green when it's favorited */
+}
+
+.favorite-workshops .remove-favorite-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.favorite-workshops .remove-favorite-button:hover {
+  background-color: #c0392b;
+}
+    

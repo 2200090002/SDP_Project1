@@ -1,0 +1,101 @@
+/* Centered and styled container */
+.login-page {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 50px;
+  border: 10px solid #330202;
+  border-radius: 18px;
+  background-color: #c5f1f6;
+  box-shadow: 0 8px 16px rgba(235, 13, 13, 0.2);
+  animation: slideIn 3s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-page h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #3b4a05;
+  margin-bottom: 25px;
+  animation: fadeInText 0.7s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInText {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: fadeInForm 0.7s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInForm {
+  0% { opacity: 0; transform: translateX(-20px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.input-container label {
+  color: #ac0a0a;
+  font-weight: 100;
+}
+
+.login-page input {
+  padding: 10px;
+  border: 5px solid #051d18;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-page input:focus {
+  border-color: #071f38;
+  box-shadow: 0 0 8px rgba(4, 40, 80, 0.4);
+}
+
+.login-page button {
+  background-color: #908393e0;
+  color: #0a39b9;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-page button:hover {
+  background-color: #a8f4f2;
+  transform: scale(1.05);
+}
+
+.login-page button:active {
+  transform: scale(0.98);
+}
+
+.login-page p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-page a {
+  color: #a6cef9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-page a:hover {
+  color: #9fc8f4;
+} 

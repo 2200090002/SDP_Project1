@@ -1,0 +1,52 @@
+.my-workshop-page {
+  padding: 150px;
+}
+
+.top-buttons {
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.workshop-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.workshop-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.workshop-card h3 {
+  margin-top: 0;
+}
+
+.view-details-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details-button:hover {
+  background-color: #218838;
+}
